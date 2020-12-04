@@ -9,7 +9,7 @@
 
 #define E2_Response 201
 
-#define E2_Failure	204
+#define E2_Failure 204
 
 //E2 reset 300~399
 
