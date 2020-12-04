@@ -50,7 +50,9 @@
 ```c
 //xApp
 
-#define database 6666
+#define db_req 6000
+#define db_rp 6001
+#dfinee db_fail 6004
 
 ```
 
