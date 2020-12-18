@@ -77,6 +77,8 @@
 //xApp Indication(Report) 
 
 #define db_indication 6700
+#define db_indication_ack 6701
+#define db_indication_failure 6701
 
 //xApp Error Indication
 
