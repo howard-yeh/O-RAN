@@ -22,8 +22,10 @@
 #define sub_Failure 404
 
 //xApp --> xApp Manager
+#define sub_Request 420
+
+//xApp --> xApp Manager
 #define sub_Request 410
-#define sub_Failure 414
 
 //E2 Manger --> xApp
 #define sub_Response 421
