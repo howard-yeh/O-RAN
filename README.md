@@ -101,7 +101,7 @@
 
 #define db_indication 6700
 #define db_indication_ack 6701
-#define db_indication_failure 6701
+#define db_indication_failure 6704
 
 //xApp Error Indication
 
