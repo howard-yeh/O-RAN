@@ -16,9 +16,20 @@
 
 //Subscription 400~499
 
+//E2 Manager <--> E2 Termination
 #define sub_Request 400
 #define sub_Response 401
 #define sub_Failure 404
+
+//xApp --> xApp Manager
+#define sub_Request 410
+#define sub_Failure 414
+
+//E2 Manger --> xApp
+#define sub_Response 421
+#define sub_Failure 424
+
+
 
 //Delete 500~599
 
@@ -29,9 +40,22 @@
 
 //Control 600~699
 
+//E2 Manager <--> E2 Termination
 #define ctrl_request 600
 #define ctrl_ack 601
 #define ctrl_fail 604
+
+//xApp Manager-->E2 Manager
+#define sub_Response 610
+
+//xApp --> xApp Manager
+#define sub_Request 620
+
+
+//E2 Manger --> xApp
+#define sub_Response 621
+#define sub_Failure 624
+
 
 //Indication(Report) 700
 
