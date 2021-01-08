@@ -71,6 +71,9 @@
 #define item_rp 901
 #define item_fail 904
 
+//Routing Manager send the broadcast to all 1000
+
+#define broadcast 1000
 
 ```
 
