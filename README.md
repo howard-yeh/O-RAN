@@ -9,34 +9,37 @@
 #define E2_Response 201
 #define E2_Failure 204
 
+
 //E2 reset 300~399
 
 #define Reset_req 300
 #define Reset_rp 301
 
+
 //Subscription 400~499
 
-//E2 Manager <--> E2 Termination
+//Subscription Manager <--> E2 Termination
 #define sub_Request 400
 #define sub_Response 401
 #define sub_Failure 404
 
-//xApp --> xApp Manager
-#define sub_Request 420
-
-//xApp --> xApp Manager
+//xApp<---> Subscription Manager
 #define sub_Request 410
-
-//E2 Manger --> xApp
-#define sub_Response 421
-#define sub_Failure 424
+#define sub_Response 411
+#define sub_Failure 414
 
 
-//Delete 500~599
+//Subscription Delete 500~599
 
+//Subscription Manager <--> E2 Termination
 #define sub_delreq 500
 #define sub_delrp 501
 #define sub_delfail 504
+
+//xApp<---> Subscription Manager
+#define sub_delreq 510
+#define sub_delrp 511
+#define sub_delfail 514
 
 
 //Control 600~699
@@ -46,25 +49,28 @@
 #define ctrl_ack 601
 #define ctrl_fail 604
 
-//xApp Manager-->E2 Manager
-#define sub_Response 610
-
-//xApp --> xApp Manager
-#define sub_Request 620
-
-
-//E2 Manger --> xApp
-#define sub_Response 621
-#define sub_Failure 624
+//xApp <-->E2 Manager
+#define ctrl_request 610
+#define ctrl_ack 611
+#define ctrl_fail 614
 
 
 //Indication(Report) 700
 
-#define indication 700
+#define indi_report 700
+
 
 //Error Indication 800
 
-#define error 800
+#define indi_error 800
+
+
+//xApp <---> Routing Manager 900~999
+
+#define item_req 900
+#define item_rp 901
+#define item_fail 904
+
 
 ```
 
