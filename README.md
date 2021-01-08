@@ -116,3 +116,29 @@
 #define db_error 6800
 
 ```
+
+## Sepcific Port Definition
+
+```c
+//Manager_port 4000~4999
+
+#define E2_Termination_port 4000
+
+#define E2_Mgr 4200
+
+#define Subscription_Mgr 4400
+
+#define Routing_Mgr 4600
+
+//database_port 6000~6999
+
+#define redis_Mgr 6000
+
+#define redis 6379
+
+//xapp_port 8000~8999 
+//defualt xapp will set to 8000 
+
+#define default_xapp 8000
+
+```
