@@ -59,11 +59,22 @@
 
 #define indi_report 700
 
+//Indication(Insert) 710
 
-//Error Indication 800
+#define indi_report 710
 
-#define indi_error 800
+//Error Indication 740
 
+#define indi_error 740
+
+
+//Service updata 800
+
+#define serv_update 800
+
+//Service Query 810
+
+#define serv_update 810
 
 //xApp <---> Routing Manager 900~999
 
