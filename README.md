@@ -90,46 +90,53 @@
 
 ```
 
-### xApp / Database => 6000~6999
+### xApp / For Database  (6000~6999)
 ```c
-//xApp E2 setup
+//(DB) xApp E2 setup
 
 #define db_E2_Request 6200
 #define db_E2_Response 6201
 #define db_E2_Failure 6204
 
-//xApp E2 Reset
+//(DB) xApp E2 Reset
 
 #define db_Reset_req 6300
 #define db_Reset_rp 6301
 
-//xApp Subscription
+//(DB) xApp Subscription
 
 #define db_sub_Request 6400
 #define db_sub_Response 6401
 #define db_sub_Failure 6404
 
-//xApp Subscription Delete
+//(DB) xApp Subscription Delete
 
 #define db_sub_delreq 6500
 #define db_sub_delrp 6501
 #define db_sub_delfail 6504
 
-//xApp Control
+//(DB) xApp Control
 
 #define db_ctrl_request 6600
 #define db_ctrl_ack 6601
 #define db_ctrl_fail 6604
 
-//xApp Indication(Report) 
+//(DB) xApp Indication(Report) 
 
-#define db_indication 6700
-#define db_indication_ack 6701
-#define db_indication_failure 6704
+#define db_indication_report 6700
+#define db_indication_report_ack 6701
+#define db_indication_report_failure 6704
 
-//xApp Error Indication
+//(DB) xApp Indication(Insert) 
 
-#define db_error 6800
+#define db_indication_insert 6710
+#define db_indication_insert_ack 6711
+#define db_indication_insert_failure 6714
+
+//(DB) xApp Error Indication
+
+#define db_error 6740
+
 
 ```
 
@@ -139,16 +146,20 @@
 //Manager_port 4000~4999
 
 #define E2_Termination_port 4000
+#define E2_T_RMR_Manager_port 4001
 
 #define E2_Mgr 4200
+#define E2_Mgr_RMR_Manager_port 4201
 
 #define Subscription_Mgr 4400
+#define E2_Mgr_RMR_Manager_port 4401
 
 #define Routing_Mgr 4600
 
 //database_port 6000~6999
 
 #define redis_Mgr 6000
+#define E2_Mgr_RMR_Manager_port 6001
 
 #define redis 6379
 
