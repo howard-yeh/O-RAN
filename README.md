@@ -152,7 +152,7 @@
 
 #define redis 6379
 
-//xapp_port 8000~15000
+//xapp_port 8000~16000
 
 #define default_xapp 8000
 
