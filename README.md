@@ -158,13 +158,17 @@
 
 //database_port 6000~6999
 
-#define redis_Mgr 6000
-#define E2_Mgr_RMR_Manager_port 6001
+#define Redis_Mgr_RIC 6000
+#define RMR_Mgr_port_RIC 6001
 
-#define redis 6379
+#define Redis 6379
 
-//xapp_port 8000~65535
+#define Redis_Mgr_Routing 6600
+#define RMR_Mgr_port_Routing 6601
 
-#define default_xapp 8000
+//xapp_port 8000~65000
+// (total 57000/2 = 28500)
+#define default_xapp 8000~36499
+#define default_xapp 36500~64999
 
 ```
