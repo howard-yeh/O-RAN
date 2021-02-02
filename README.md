@@ -91,6 +91,7 @@
 #define send_failure 914
 
 //xApp <---RMR Manager (notify xapp initial successful)
+
 #define initial_success 999
 
 //Routing Manager send the broadcast to all 1000
