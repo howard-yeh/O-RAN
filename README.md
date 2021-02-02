@@ -84,9 +84,20 @@
 #define item_rp 901
 #define item_fail 904
 
+//xApp --->RMR Manager (asking for sending data)
+
+#define send_request 910
+#define send_ack 911
+#define send_failure 914
+
+//xApp <---RMR Manager (notify xapp initial successful)
+#define initial_success 999
+
 //Routing Manager send the broadcast to all 1000
 
 #define broadcast 1000
+
+
 
 ```
 
