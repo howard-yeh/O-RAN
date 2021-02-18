@@ -14,6 +14,7 @@
 
 #define Reset_Request 300
 #define Reset_Response 301
+#define Reset_Failure 304
 
 
 //Subscription 400~499
