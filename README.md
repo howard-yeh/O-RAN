@@ -12,91 +12,91 @@
 
 //E2 reset 300~399
 
-#define Reset_req 300
-#define Reset_rp 301
+#define Reset_Request 300
+#define Reset_Response 301
 
 
 //Subscription 400~499
 
 //Subscription Manager <--> E2 Termination
-#define sub_Request 400
-#define sub_Response 401
-#define sub_Failure 404
+#define Sub_Request 400
+#define Sub_Response 401
+#define Sub_Failure 404
 
 //xApp<---> Subscription Manager
-#define sub_Request 410
-#define sub_Response 411
-#define sub_Failure 414
+#define Sub_Request 410
+#define Sub_Response 411
+#define Sub_Failure 414
 
 
 //Subscription Delete 500~599
 
 //Subscription Manager <--> E2 Termination
-#define sub_delreq 500
-#define sub_delrp 501
-#define sub_delfail 504
+#define Sub_delreq 500
+#define Sub_delrp 501
+#define Sub_delfail 504
 
 //xApp<---> Subscription Manager
-#define sub_delreq 510
-#define sub_delrp 511
-#define sub_delfail 514
+#define Sub_delreq 510
+#define Sub_delrp 511
+#define Sub_delfail 514
 
 
 //Control 600~699
 
 //E2 Manager <--> E2 Termination
-#define ctrl_request 600
-#define ctrl_ack 601
-#define ctrl_fail 604
+#define Ctrl_Request 600
+#define Ctrl_Response 601
+#define Ctrl_Failure 604
 
 //xApp <-->E2 Manager
-#define ctrl_request 610
-#define ctrl_ack 611
-#define ctrl_fail 614
+#define Ctrl_Request 610
+#define Ctrl_Response 611
+#define Ctrl_Failure 614
 
 
 //Indication(Report) 700
 
-#define indi_report 700
+#define Indi_Report 700
 
 //Indication(Insert) 710
 
-#define indi_insert 710
+#define Indi_Insert 710
 
 //Error Indication 740
 
-#define indi_error 740
+#define Indi_Error 740
 
 
-//Service updata 800
+//Service Update 800
 
-#define serv_update 800
-#define serv_ack 801
-#define serv_fail 804
+#define Serv_Update_Request 800
+#define Serv_Update_Response 801
+#define Serv_Update_Failure 804
 
 //Service Query 810
 
-#define serv_query 810
+#define Serv_Query 810
 
 //xApp <---> Routing Manager 900~999
 
-#define item_req 900
-#define item_rp 901
-#define item_fail 904
+#define Item_Request 900
+#define Item_Response 901
+#define Item_Failure 904
 
-//xApp --->RMR Manager (asking for sending data)
+//xApp --->RMR Manager (Asking for sending data)
 
-#define send_request 910
-#define send_ack 911
-#define send_failure 914
+#define Send_Request 910
+#define Send_Response 911
+#define Send_Failure 914
 
-//xApp <---RMR Manager (notify xapp initial successful)
+//xApp <---RMR Manager (Notify xApp initial successful)
 
-#define initial_success 999
+#define Initial_Success 999
 
 //Routing Manager send the broadcast to all 1000
 
-#define broadcast 1000
+#define Broadcast 1000
 
 
 ```
@@ -111,8 +111,8 @@
 
 //(DB) xApp E2 Reset
 
-#define db_Reset_req 6300
-#define db_Reset_rp 6301
+#define db_Reset_Request 6300
+#define db_Reset_Response 6301
 
 //(DB) xApp Subscription
 
@@ -122,27 +122,27 @@
 
 //(DB) xApp Subscription Delete
 
-#define db_sub_delreq 6500
+#define db_sub_delres 6500
 #define db_sub_delrp 6501
 #define db_sub_delfail 6504
 
 //(DB) xApp Control
 
-#define db_ctrl_request 6600
-#define db_ctrl_ack 6601
-#define db_ctrl_fail 6604
+#define db_ctrl_Requestuest 6600
+#define db_ctrl_Response 6601
+#define db_ctrl_Failure 6604
 
 //(DB) xApp Indication(Report) 
 
 #define db_indication_report 6700
-#define db_indication_report_ack 6701
-#define db_indication_report_failure 6704
+#define db_indication_report_Response 6701
+#define db_indication_report_Failure 6704
 
 //(DB) xApp Indication(Insert) 
 
 #define db_indication_insert 6710
-#define db_indication_insert_ack 6711
-#define db_indication_insert_failure 6714
+#define db_indication_insert_Response 6711
+#define db_indication_insert_Failure 6714
 
 //(DB) xApp Error Indication
 
