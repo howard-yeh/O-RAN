@@ -160,17 +160,16 @@
 //Manager_port 4000~4999
 
 #define E2_Termination_port 4000
-#define E2_T_RMR_Manager_port 4001
 
 #define E2_Mgr 4200
 #define E2_Mgr_RMR_Manager_port 4201
 
 #define Subscription_Mgr 4400
-#define E2_Mgr_RMR_Manager_port 4401
+#define Subscription_Mgr_RMR_Manager_port 4401
 
 #define Routing_Mgr 4600
 
-//database_port 6000~6999
+//Database_port 6000~6999
 
 #define Redis_Mgr_RIC 6000
 #define RMR_Mgr_port_RIC 6001
@@ -180,8 +179,8 @@
 #define Redis_Mgr_Routing 6600
 #define RMR_Mgr_port_Routing 6601
 
-//xapp_port 8000~65000
-// (total 57000/2 = 28500)
+//xApp_port 8000~65000
+//(Total 57000/2 = 28500)
 #define default_xapp 8000~36499
 #define default_xapp 36500~64999
 
