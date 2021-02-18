@@ -113,6 +113,7 @@
 
 #define db_Reset_Request 6300
 #define db_Reset_Response 6301
+#define db_Reset_Failure 6304
 
 //(DB) xApp Subscription
 
