@@ -20,11 +20,13 @@
 //Subscription 400~499
 
 //Subscription Manager <--> E2 Termination
+
 #define Sub_Request 400
 #define Sub_Response 401
 #define Sub_Failure 404
 
 //xApp<---> Subscription Manager
+
 #define Sub_Request 410
 #define Sub_Response 411
 #define Sub_Failure 414
@@ -33,11 +35,13 @@
 //Subscription Delete 500~599
 
 //Subscription Manager <--> E2 Termination
+
 #define Sub_delreq 500
 #define Sub_delrp 501
 #define Sub_delfail 504
 
 //xApp<---> Subscription Manager
+
 #define Sub_delreq 510
 #define Sub_delrp 511
 #define Sub_delfail 514
@@ -46,11 +50,13 @@
 //Control 600~699
 
 //E2 Manager <--> E2 Termination
+
 #define Ctrl_Request 600
 #define Ctrl_Response 601
 #define Ctrl_Failure 604
 
 //xApp <-->E2 Manager
+
 #define Ctrl_Request 610
 #define Ctrl_Response 611
 #define Ctrl_Failure 614
@@ -58,15 +64,15 @@
 
 //Indication(Report) 700
 
-#define Indi_Report 700
+#define Indication_Report 700
 
 //Indication(Insert) 710
 
-#define Indi_Insert 710
+#define Indication_Insert 710
 
 //Error Indication 740
 
-#define Indi_Error 740
+#define Indication_Error 740
 
 
 //Service Update 800
@@ -106,51 +112,51 @@
 ```c
 //(DB) xApp E2 setup
 
-#define db_E2_Request 6200
-#define db_E2_Response 6201
-#define db_E2_Failure 6204
+#define DB_E2_Request 6200
+#define DB_E2_Response 6201
+#define DB_E2_Failure 6204
 
 //(DB) xApp E2 Reset
 
-#define db_Reset_Request 6300
-#define db_Reset_Response 6301
-#define db_Reset_Failure 6304
+#define DB_Reset_Request 6300
+#define DB_Reset_Response 6301
+#define DB_Reset_Failure 6304
 
 //(DB) xApp Subscription
 
-#define db_sub_Request 6400
-#define db_sub_Response 6401
-#define db_sub_Failure 6404
+#define DB_Sub_Request 6400
+#define DB_Sub_Response 6401
+#define DB_Sub_Failure 6404
 
 //(DB) xApp Subscription Delete
 
-#define db_sub_delreq 6500
-#define db_sub_delrp 6501
-#define db_sub_delfail 6504
+#define DB_Sub_delreq 6500
+#define DB_Sub_delrp 6501
+#define DB_Sub_delfail 6504
 
 //(DB) xApp Control
 
-#define db_ctrl_Request 6600
-#define db_ctrl_Response 6601
-#define db_ctrl_Failure 6604
+#define DB_Ctrl_Request 6600
+#define DB_Ctrl_Response 6601
+#define DB_Ctrl_Failure 6604
 
 //(DB) xApp Indication(Report) 
 
-#define db_indication_report_Request 6700
-#define db_indication_report_Response 6701
-#define db_indication_report_Failure 6704
+#define DB_indication_report_Request 6700
+#define DB_indication_report_Response 6701
+#define DB_indication_report_Failure 6704
 
 //(DB) xApp Indication(Insert) 
 
-#define db_indication_insert_Request 6710
-#define db_indication_insert_Response 6711
-#define db_indication_insert_Failure 6714
+#define DB_indication_insert_Request 6710
+#define DB_indication_insert_Response 6711
+#define DB_indication_insert_Failure 6714
 
 //(DB) xApp Error Indication
 
-#define db_error_Request 6740
-#define db_error_Response 6741
-#define db_error_Failure 6744
+#define DB_error_Request 6740
+#define DB_error_Response 6741
+#define DB_error_Failure 6744
 
 ```
 
@@ -162,26 +168,23 @@
 #define E2_Termination_port 4000
 
 #define E2_Mgr 4200
-#define E2_Mgr_RMR_Manager_port 4201
 
 #define Subscription_Mgr 4400
-#define Subscription_Mgr_RMR_Manager_port 4401
 
 #define Routing_Mgr 4600
 
 //Database_port 6000~6999
 
 #define Redis_Mgr_RIC 6000
-#define RMR_Mgr_port_RIC 6001
 
 #define Redis 6379
 
 #define Redis_Mgr_Routing 6600
-#define RMR_Mgr_port_Routing 6601
 
-//xApp_port 8000~65000
-//(Total 57000/2 = 28500)
-#define default_xapp 8000~36499
-#define default_xapp 36500~64999
+
+//xApp_port 8000~65535
+
+#define Default_xApp 8000~65535
+
 
 ```
