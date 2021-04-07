@@ -89,17 +89,6 @@
 
 #define Item_Request 900
 #define Item_Response 901
-#define Item_Failure 904
-
-//xApp --->RMR Manager (Asking for sending data)
-
-#define Send_Request 910
-#define Send_Response 911
-#define Send_Failure 914
-
-//xApp <---RMR Manager (Notify xApp initial successful)
-
-#define Initial_Success 999
 
 //Routing Manager send the broadcast to all 1000
 
