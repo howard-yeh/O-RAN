@@ -85,6 +85,22 @@
 
 #define Serv_Query 810
 
+//Query E2 Setup Table
+#define Indication_Query_Request 820
+#define Indication_Query_Response 821
+#define Indication_Query_Failure 824
+
+//Query Subscription Table
+#define Indication_Query_Request 840
+#define Indication_Query_Response 841
+#define Indication_Query_Failure 844
+
+//Query Indication Report Table
+#define Indication_Query_Request 870
+#define Indication_Query_Response 871
+#define Indication_Query_Failure 874
+
+
 //xApp <---> Routing Manager 900~999
 
 #define Item_Request 900
@@ -146,6 +162,7 @@
 #define DB_error_Request 6740
 #define DB_error_Response 6741
 #define DB_error_Failure 6744
+
 
 ```
 
