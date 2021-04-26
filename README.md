@@ -168,7 +168,7 @@
 
 #define DB_Indication_Insert_Request 6710
 #define DB_Indication_Insert_Response 6711
-#define DB_Indication_insert_Failure 6714
+#define DB_Indication_Insert_Failure 6714
 
 //(DB) xApp Error Indication
 
