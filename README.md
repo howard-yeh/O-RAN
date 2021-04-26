@@ -148,9 +148,9 @@
 
 //(DB) xApp Subscription Delete
 
-#define DB_Sub_delreq 6500
-#define DB_Sub_delrp 6501
-#define DB_Sub_delfail 6504
+#define DB_Sub_Del_Request 6500
+#define DB_Sub_Del_Response 6501
+#define DB_Sub_Del_Failure 6504
 
 //(DB) xApp Control
 
@@ -160,21 +160,21 @@
 
 //(DB) xApp Indication(Report) 
 
-#define DB_indication_report_Request 6700
-#define DB_indication_report_Response 6701
-#define DB_indication_report_Failure 6704
+#define DB_Indication_Report_Request 6700
+#define DB_Indication_Report_Response 6701
+#define DB_Indication_Report_Failure 6704
 
 //(DB) xApp Indication(Insert) 
 
-#define DB_indication_insert_Request 6710
-#define DB_indication_insert_Response 6711
-#define DB_indication_insert_Failure 6714
+#define DB_Indication_Insert_Request 6710
+#define DB_Indication_Insert_Response 6711
+#define DB_Indication_insert_Failure 6714
 
 //(DB) xApp Error Indication
 
-#define DB_error_Request 6740
-#define DB_error_Response 6741
-#define DB_error_Failure 6744
+#define DB_Error_Request 6740
+#define DB_Error_Response 6741
+#define DB_Error_Failure 6744
 
 
 ```
