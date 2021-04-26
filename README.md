@@ -36,15 +36,28 @@
 
 //Subscription Manager <--> E2 Termination
 
-#define Sub_delreq 500
-#define Sub_delrp 501
-#define Sub_delfail 504
+#define Sub_Del_Request 500
+#define Sub_Del_Response 501
+#define Sub_Del_Failure 504
 
 //xApp<---> Subscription Manager
 
-#define Sub_delreq 510
-#define Sub_delrp 511
-#define Sub_delfail 514
+#define Sub_Del_Request 510
+#define Sub_Del_Response 511
+#define Sub_Del_Failure 514
+
+//E2 Manager <---> E2 Termination
+
+#define E2_Node_Del_Request 520
+#define E2_Node_Del_Response 521
+#define E2_Node_Del_Failure 524
+
+
+//Subscription <---> E2 Termination
+
+#define Sub_Node_Del_Request 540
+#define Sub_Node_Del_Response 541
+#define Sub_Node_Del_Failure 544
 
 
 //Control 600~699
@@ -182,6 +195,8 @@
 //Database_port 6000~6999
 
 #define Redis_Mgr_RIC 6000
+
+#define Redis_Influx_DB 6200
 
 #define Redis 6379
 
