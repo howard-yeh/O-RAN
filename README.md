@@ -32,7 +32,7 @@
 #define Sub_Failure 414
 
 
-//Subscription Delete 500~599
+//Subscription Delete 500~519
 
 //Subscription Manager <--> E2 Termination
 
@@ -70,9 +70,15 @@
 
 #define Indication_Insert 710
 
+//Error E2 Node Disconnected 720
+
+#define E2_Node_Disconnect 720
+
 //Error Indication 740
 
 #define Indication_Error 740
+
+
 
 
 //Service Update 800
