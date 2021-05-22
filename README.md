@@ -3,14 +3,14 @@
 
 ### E2 Procesure
 ```c
-//E2 setup 200~299
+//E2 Setup 200~299
 
 #define E2_Request 200
 #define E2_Response 201
 #define E2_Failure 204
 
 
-//E2 reset 300~399
+//E2 Reset 300~399
 
 #define Reset_Request 300
 #define Reset_Response 301
