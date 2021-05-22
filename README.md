@@ -46,19 +46,6 @@
 #define Sub_Del_Response 511
 #define Sub_Del_Failure 514
 
-//E2 Manager <---> E2 Termination
-
-#define E2_Node_Del_Request 520
-#define E2_Node_Del_Response 521
-#define E2_Node_Del_Failure 524
-
-
-//Subscription <---> E2 Termination
-
-#define Sub_Node_Del_Request 540
-#define Sub_Node_Del_Response 541
-#define Sub_Node_Del_Failure 544
-
 
 //Control 600~699
 
@@ -116,8 +103,8 @@
 
 //xApp <---> Routing Manager 900~999
 
-#define Item_Request 900
-#define Item_Response 901
+#define RT_Request 900
+#define RT_Response 901
 
 //Routing Manager send the broadcast to all 1000
 
@@ -184,7 +171,7 @@
 ```c
 //Manager_port 4000~4999
 
-#define E2_Termination_port 4000
+#define E2_Termination 4000
 
 #define E2_Mgr 4200
 
@@ -202,10 +189,8 @@
 
 #define Redis_Mgr_Routing 6600
 
-
 //xApp_port 8000~65535
 
 #define Default_xApp 8000~65535
-
 
 ```
