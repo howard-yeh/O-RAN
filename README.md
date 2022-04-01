@@ -190,6 +190,8 @@
 
 #define Routing_Mgr 4600
 
+#define xApp_Mgr 5000
+
 //Database_port 6000~6999
 
 #define Redis_Mgr_RIC 6000
