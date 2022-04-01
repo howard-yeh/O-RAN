@@ -116,6 +116,11 @@
 
 #define Broadcast 1000
 
+//xApp Manager <---> Routing Manager 1100~1199
+
+#define ASK_port_Request 1100
+#define ASK_port_Response 1101
+
 
 ```
 
